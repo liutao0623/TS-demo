@@ -8,7 +8,7 @@ let user = 'Tom';
 console.log(sayHello(user)); */
 
 /* 需要保证运行时的参数类型，还是得手动对类型进行判断 */
-/* function sayHello(person: string) {
+function sayHello(person: string) {
     if (typeof person === 'string') {
         return 'Hello,' + person;
     } else {
@@ -16,7 +16,7 @@ console.log(sayHello(user)); */
     }
 }
 let user = 'Tom'
-console.log(sayHello(user), '----------------  ----------------Tom'); */
+console.log(sayHello(user), '----------------  ----------------Tom');
 
 /* let anyThing: any = 'hello';
 console.log(anyThing.myName, '---------------- any ----------------Tom');*/
@@ -25,9 +25,6 @@ console.log(anyThing.myName, '---------------- any ----------------Tom');*/
 console.log(myFavoriteNumber, '----------------  ----------------Tom'); */
 
 // 联合类型（Union Types）表示取值可以为多种类型中的一种。
-/* let myFavoriteNumber: string | number;
+let myFavoriteNumber: string | number;
 myFavoriteNumber = 'seven';
 myFavoriteNumber = 7;
-console.log(myFavoriteNumber, '----------------  ----------------Tom'); */
-
-
